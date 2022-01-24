@@ -1,3 +1,6 @@
+body {
+    background-color: rgb(77, 76, 76);
+}
 form {
     position: fixed;
     top: 50%;
@@ -38,4 +41,42 @@ form {
     opacity: 1;
     pointer-events: all;
 
+}
+div.bookCard {
+    background-color: rgb(255, 226, 173);
+    width: 300px;
+    height: 300px;
+    border-radius: 6ex;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    white-space: pre-line;
+    font-size: 18px;
+}
+div.display {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 950px
+}
+button.delete {
+    background-color: red;
+    color: black;
+    height: 50px;
+    width: 80px;
+    font-size: 18px;
+    border-radius: 2ex;
+    border: 2px solid black
+}
+button.newButton {
+    margin-bottom: 30px;
+    background-color: rgb(101, 101, 245);
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    border-radius: 2ex;
+    color: white;
+    border: 2px solid white
 }
