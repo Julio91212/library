@@ -80,3 +80,11 @@ button.newButton {
     color: white;
     border: 2px solid white
 }
+button.chkbx {
+    height: 50px;
+    width: 80px;
+    background-color: rgb(89, 178, 237);
+    font-size: 16px;
+    border-radius: 2ex;
+    border: 2px solid black
+}
