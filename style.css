@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(77, 76, 76);
+    background-color: rgb(248, 229, 166);
 }
 form {
     position: fixed;
@@ -9,9 +9,9 @@ form {
     border: 1px solid black;
     border-radius: 10px;
     z-index: 10;
-    background-color: aqua;
+    background-color: rgb(132, 192, 129);
     width: 500px;
-    color: rgb(97, 2, 97)
+    color: rgb(0, 0, 0)
 }
 form.active {
     transform: translate(-50%,-50%) scale(1);
@@ -43,7 +43,7 @@ form {
 
 }
 div.bookCard {
-    background-color: rgb(255, 226, 173);
+    background-color: rgb(255, 255, 255);
     width: 300px;
     height: 300px;
     border-radius: 6ex;
@@ -53,6 +53,7 @@ div.bookCard {
     align-items: center;
     white-space: pre-line;
     font-size: 18px;
+    border: 2px solid #64abe1;
 }
 div.display {
     display: flex;
@@ -62,7 +63,7 @@ div.display {
     width: 950px
 }
 button.delete {
-    background-color: red;
+    background-color: rgb(216, 123, 123);
     color: black;
     height: 50px;
     width: 80px;
@@ -72,7 +73,7 @@ button.delete {
 }
 button.newButton {
     margin-bottom: 30px;
-    background-color: rgb(101, 101, 245);
+    background-color: #64abe1;
     height: 50px;
     width: 150px;
     font-size: 18px;
@@ -87,4 +88,13 @@ button.chkbx {
     font-size: 16px;
     border-radius: 2ex;
     border: 2px solid black
+}
+button.closeButton {
+background-color: white;
+font-size: 18px;
+}
+input#submit {
+background-color: #64abe1;
+border-radius: 2ex;
+border: 1px solid black
 }
